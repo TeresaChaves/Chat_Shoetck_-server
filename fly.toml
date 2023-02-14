@@ -44,8 +44,4 @@ processes = []
     timeout = "2s"
 
 
- [[services.http_checks]]
-    interval = 10000
-    
-   
-    tls_skip_verify = false
+ 

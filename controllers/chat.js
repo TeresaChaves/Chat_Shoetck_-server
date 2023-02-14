@@ -15,6 +15,8 @@ const addUser = (username) => {
 };
 
 const chat = (io) => {
+
+
     // middleware
     io.use((socket, next) => {
         const username = socket.handshake.auth.username;

@@ -19,7 +19,6 @@ processes = []
    grace_period = "5s"
     method = "get"
     path = "/healthcheck"
-    protocol = "https"
     restart_limit = 0
   script_checks = []
 

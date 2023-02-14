@@ -6,8 +6,12 @@ require('dotenv').config()
 
 
 
+// const app = express();
+// const http = require("http").createServer(app);
+
 const app = express();
-const http = require("http").createServer(app);
+app.use(express.json({ extended: false }));
+app.use(express.static('public'));
 
 
 // socket io
